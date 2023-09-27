@@ -53,6 +53,10 @@ body {
     max-width: 500px;
 }
 
+.info {
+    width: 450px;
+}
+
 .forward {
     font-weight: bold;
 }
@@ -86,10 +90,25 @@ body {
     display: none;
 }
 
-label {
+
+.email_address {
     font-size: 12px;
     color: #000;
     font-weight: 1000;
+    margin-top: 2rem;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error {
+    font-size: 12px;
+    color: var(--tomato);
+    font-weight: bold;
+    display: inline;
     margin-top: 2rem;
 }
 
