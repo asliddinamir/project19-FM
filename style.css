@@ -24,6 +24,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding-inline: 20px;
+    padding-block: 30px;
+    position: relative;
 
 }
 
@@ -63,8 +65,11 @@ body {
 
 
 .illustration_img {
-    width: 470px;
+    max-width: 470px;
+    max-height: 600px;
+    border-radius: 15px;
 }
+
 
 .title {
     font-size: 56px;
@@ -150,4 +155,71 @@ body {
 
 .attribution a {
     color: var(--tomato);
+}
+
+@media(max-width:965px) {
+    .signup_form {
+        width: 95%;
+    }
+
+    .icons {
+        margin: 0;
+    }
+
+    .error {
+        margin: 0;
+    }
+
+    .email_address {
+        margin: 0;
+    }
+
+    .title {
+        font-size: 46px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .line {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:784px) {
+    .signup_form {
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+
+    .illustration_img {
+        width: 100%;
+    }
+
+    .illustration_img img {
+        width: 100%;
+    }
+}
+
+@media(max-width:551px) {
+    body {
+        padding-inline: 0;
+    }
+
+    .signup_form {
+        padding: 10px;
+    }
+
+    .info {
+        width: 95%;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .attribution {
+        font-size: 10px;
+    }
 }
