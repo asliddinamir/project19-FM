@@ -120,3 +120,15 @@ label {
 .btn:hover {
     background-color: var(--tomato);
 }
+
+.attribution {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.attribution a {
+    color: var(--tomato);
+}
