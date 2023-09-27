@@ -17,7 +17,7 @@
 
   <!-- Sign-up form start -->
 
-  <main class="signup_form container">
+  <main class="signup_form hidden">
     <div class="info">
       <h1 class="title">Stay updated!</h1>
       <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
@@ -48,10 +48,11 @@
 
   <!-- Success message start -->
 
-  <main class="success_form container hidden">
+  <main class="success_form">
     <img src="./assets/images/icon-success.svg" alt="success_icon">
     <h1 class="title">Thanks for subscribing!</h1>
-    <p class="description">A confirmation email has been sent to email@company.com. Please open it and click the button
+    <p class="description">A confirmation email has been sent to <span class="forward">email@company.com. </span>Please
+      open it and click the button
       inside to confirm your subscription</p>
     <button class="btn">Dismiss Message</button>
   </main>
