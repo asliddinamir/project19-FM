@@ -24,5 +24,6 @@ dismissBtn.addEventListener('click', () => {
     signupForm.classList.remove('hidden')
     successForm.classList.add('hidden')
     inputValue.value = ''
+    inputValue.style.backgroundColor = 'transparent'
     errorMsg.innerText = ''
 })
